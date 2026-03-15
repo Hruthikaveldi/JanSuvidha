@@ -1,4 +1,4 @@
-# 🇮🇳 JanSuvidha — Know Your Government Schemes
+# 🇮🇳 JanSuvidha — Citizen Scheme Eligibility Portal
 
 > A Dockerized Full-Stack Civic Tech Application for Government Scheme Eligibility Detection
 
@@ -175,8 +175,11 @@ All 3 containers communicate over a shared Docker bridge network (`jansuvidha-ne
 ## 👩‍💻 Author
 
 **Hruthika Veldi**
+
 2303A51543
+
 Department of Computer Science
+
 SR University
 
 ---
