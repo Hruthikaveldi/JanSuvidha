@@ -1,0 +1,736 @@
+[
+  {
+    "id": "pmay-u",
+    "name": "PM Awas Yojana – Urban (PMAY-U)",
+    "category": "Housing",
+    "icon": "🏠",
+    "description": "Provides financial assistance to urban poor for construction or enhancement of houses.",
+    "benefit": "Subsidy up to ₹2.67 lakh on home loan interest",
+    "applyLink": "https://pmayuclap.gov.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 99, "maxIncome": 1800000,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","lig","minority"],
+      "states": "all", "occupations": "all",
+      "conditions": ["Must not own a pucca house anywhere in India", "First-time home buyer"]
+    }
+  },
+  {
+    "id": "pmay-g",
+    "name": "PM Awas Yojana – Gramin (PMAY-G)",
+    "category": "Housing",
+    "icon": "🏡",
+    "description": "Housing for All in rural areas — financial assistance to BPL families for house construction.",
+    "benefit": "₹1.2 lakh (plains) or ₹1.3 lakh (hills/NE) for house construction",
+    "applyLink": "https://pmayg.nic.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 99, "maxIncome": 200000,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["farmer","daily wage","labourer","unemployed","self employed"],
+      "conditions": ["Must be in SECC 2011 list", "Rural household only", "No pucca house"]
+    }
+  },
+  {
+    "id": "pmjay",
+    "name": "Ayushman Bharat – PM Jan Arogya Yojana",
+    "category": "Health",
+    "icon": "🏥",
+    "description": "World's largest health insurance providing free hospital treatment to poor families.",
+    "benefit": "₹5 lakh per family per year for hospitalisation — completely free",
+    "applyLink": "https://pmjay.gov.in",
+    "eligibility": {
+      "minAge": 0, "maxAge": 99, "maxIncome": 500000,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["farmer","daily wage","labourer","unemployed","domestic worker","construction worker","sanitation worker","self employed"],
+      "conditions": ["SECC listed family OR occupation-based criteria"]
+    }
+  },
+  {
+    "id": "jssk",
+    "name": "Janani Shishu Suraksha Karyakram (JSSK)",
+    "category": "Health",
+    "icon": "👶",
+    "description": "Free maternity services for pregnant women and sick newborns at government hospitals.",
+    "benefit": "Free delivery, C-section, medicines, diagnostics, blood, diet, transport",
+    "applyLink": "https://nhm.gov.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 49, "maxIncome": 999999,
+      "gender": "female",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all", "occupations": "all",
+      "conditions": ["Pregnant woman or mother of sick newborn"]
+    }
+  },
+  {
+    "id": "jsy",
+    "name": "Janani Suraksha Yojana (JSY)",
+    "category": "Health",
+    "icon": "🤱",
+    "description": "Cash incentive for institutional delivery to reduce maternal and infant mortality.",
+    "benefit": "₹1,400 (rural) or ₹1,000 (urban) cash for institutional delivery",
+    "applyLink": "https://nhm.gov.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 45, "maxIncome": 200000,
+      "gender": "female",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all", "occupations": "all",
+      "conditions": ["BPL pregnant woman", "Delivering in govt/accredited private hospital"]
+    }
+  },
+  {
+    "id": "pmjjby",
+    "name": "PM Jeevan Jyoti Bima Yojana (PMJJBY)",
+    "category": "Insurance",
+    "icon": "🛡️",
+    "description": "Life insurance cover of Rs 2 lakh for death due to any cause at very low premium.",
+    "benefit": "Rs 2 lakh life cover at just Rs 436 per year premium",
+    "applyLink": "https://www.jansuraksha.gov.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 50, "maxIncome": 999999,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all", "occupations": "all",
+      "conditions": ["Must have savings bank account", "Aadhaar linked bank account preferred"]
+    }
+  },
+  {
+    "id": "pmsby",
+    "name": "PM Suraksha Bima Yojana (PMSBY)",
+    "category": "Insurance",
+    "icon": "⛑️",
+    "description": "Accident insurance covering death and disability at just Rs 20 per year.",
+    "benefit": "Rs 2 lakh for accidental death | Rs 1 lakh for partial disability — only Rs 20/year",
+    "applyLink": "https://www.jansuraksha.gov.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 70, "maxIncome": 999999,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all", "occupations": "all",
+      "conditions": ["Must have savings bank account"]
+    }
+  },
+  {
+    "id": "apy",
+    "name": "Atal Pension Yojana (APY)",
+    "category": "Insurance",
+    "icon": "👴",
+    "description": "Guaranteed monthly pension for workers in unorganised sector after age 60.",
+    "benefit": "Rs 1,000 to Rs 5,000/month pension after age 60 based on contribution",
+    "applyLink": "https://www.npscra.nsdl.co.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 40, "maxIncome": 999999,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["daily wage","labourer","farmer","self employed","domestic worker"],
+      "conditions": ["Not an income tax payer", "Not covered under any statutory social security scheme", "Must have savings bank account"]
+    }
+  },
+  {
+    "id": "pmuy",
+    "name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+    "category": "Women",
+    "icon": "🔥",
+    "description": "Free LPG connections to women from BPL households to replace dirty cooking fuels.",
+    "benefit": "Free LPG connection + first refill + hot plate",
+    "applyLink": "https://pmuy.gov.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 99, "maxIncome": 200000,
+      "gender": "female",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all", "occupations": "all",
+      "conditions": ["BPL household", "No existing LPG connection in household"]
+    }
+  },
+  {
+    "id": "bbbp",
+    "name": "Beti Bachao Beti Padhao (BBBP)",
+    "category": "Women",
+    "icon": "👧",
+    "description": "Scheme to promote girl child education and prevent gender-biased discrimination.",
+    "benefit": "Education incentives and cash transfers for girl child education up to graduation",
+    "applyLink": "https://wcd.nic.in/bbbp-schemes",
+    "eligibility": {
+      "minAge": 0, "maxAge": 22, "maxIncome": 999999,
+      "gender": "female",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["student","unemployed"],
+      "conditions": ["Girl child or young woman"]
+    }
+  },
+  {
+    "id": "pmmvy",
+    "name": "PM Matru Vandana Yojana (PMMVY)",
+    "category": "Women",
+    "icon": "🤰",
+    "description": "Maternity benefit to compensate wage loss during pregnancy and nursing.",
+    "benefit": "Rs 5,000 in 3 instalments for first child",
+    "applyLink": "https://wcd.nic.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 40, "maxIncome": 800000,
+      "gender": "female",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all", "occupations": "all",
+      "conditions": ["First live birth only", "Registered pregnancy at AWC or health facility"]
+    }
+  },
+  {
+    "id": "sukanya",
+    "name": "Sukanya Samriddhi Yojana (SSY)",
+    "category": "Women",
+    "icon": "💰",
+    "description": "Small savings scheme for girl child to secure her education and marriage expenses.",
+    "benefit": "8.2% interest per year (highest among small savings), tax-free maturity",
+    "applyLink": "https://www.indiapost.gov.in",
+    "eligibility": {
+      "minAge": 0, "maxAge": 10, "maxIncome": 999999,
+      "gender": "female",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all", "occupations": "all",
+      "conditions": ["Girl child below 10 years of age", "Account opened by parent/guardian"]
+    }
+  },
+  {
+    "id": "swadhar",
+    "name": "Swadhar Greh Scheme",
+    "category": "Women",
+    "icon": "🏘️",
+    "description": "Shelter and rehabilitation for women in difficult circumstances.",
+    "benefit": "Free shelter, food, clothing, counselling, legal aid, vocational training",
+    "applyLink": "https://wcd.nic.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 99, "maxIncome": 100000,
+      "gender": "female",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all", "occupations": "all",
+      "conditions": ["Women in distress, destitute, or victims of violence or trafficking"]
+    }
+  },
+  {
+    "id": "nrlm",
+    "name": "DAY-NRLM – Self Help Group Loans",
+    "category": "Women",
+    "icon": "👩‍💼",
+    "description": "Interest subvention and credit linkage for women SHGs in rural areas.",
+    "benefit": "Loans at 7% interest (effective 4% after subvention), up to Rs 6 lakh per SHG",
+    "applyLink": "https://aajeevika.gov.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 60, "maxIncome": 300000,
+      "gender": "female",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["self employed","unemployed","daily wage"],
+      "conditions": ["Member of registered Self Help Group", "Rural household"]
+    }
+  },
+  {
+    "id": "pmkisan",
+    "name": "PM Kisan Samman Nidhi (PM-KISAN)",
+    "category": "Agriculture",
+    "icon": "🌾",
+    "description": "Direct income support of Rs 6,000/year to farmer families.",
+    "benefit": "Rs 6,000 per year in 3 instalments of Rs 2,000 directly to bank",
+    "applyLink": "https://pmkisan.gov.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 99, "maxIncome": 999999,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["farmer"],
+      "conditions": ["Must be a farmer with cultivable land", "Not an income tax payer", "Not a government employee"]
+    }
+  },
+  {
+    "id": "kcc",
+    "name": "Kisan Credit Card (KCC)",
+    "category": "Agriculture",
+    "icon": "💳",
+    "description": "Short-term credit to farmers for agricultural and allied activities.",
+    "benefit": "Credit up to Rs 3 lakh at 4% interest rate with timely repayment",
+    "applyLink": "https://www.nabard.org",
+    "eligibility": {
+      "minAge": 18, "maxAge": 75, "maxIncome": 999999,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["farmer"],
+      "conditions": ["Owner cultivator, tenant farmer, or sharecropper"]
+    }
+  },
+  {
+    "id": "pmfby",
+    "name": "PM Fasal Bima Yojana (PMFBY)",
+    "category": "Agriculture",
+    "icon": "🌱",
+    "description": "Crop insurance providing financial support to farmers for crop failure.",
+    "benefit": "Full crop loss insurance — premium only 2% for kharif, 1.5% for rabi",
+    "applyLink": "https://pmfby.gov.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 99, "maxIncome": 999999,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["farmer"],
+      "conditions": ["Must have sown notified crop in notified area"]
+    }
+  },
+  {
+    "id": "pmmsy",
+    "name": "PM Matsya Sampada Yojana (PMMSY)",
+    "category": "Agriculture",
+    "icon": "🐟",
+    "description": "Development of fisheries sector — subsidised boats, nets, cold storage for fishermen.",
+    "benefit": "40-60% subsidy on fishing equipment, boats, ponds",
+    "applyLink": "https://pmmsy.dof.gov.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 60, "maxIncome": 500000,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["farmer"],
+      "conditions": ["Fisher or fish farmer", "Registered with fisheries department"]
+    }
+  },
+  {
+    "id": "mgnrega",
+    "name": "Mahatma Gandhi NREGS (MGNREGA)",
+    "category": "Employment",
+    "icon": "👷",
+    "description": "Guarantees 100 days of wage employment per year to rural households.",
+    "benefit": "100 days guaranteed work at minimum wage (Rs 220-350/day by state)",
+    "applyLink": "https://nrega.nic.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 99, "maxIncome": 300000,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["unemployed","labourer","daily wage","farmer"],
+      "conditions": ["Rural household", "Willing to do unskilled manual work"]
+    }
+  },
+  {
+    "id": "pmegp",
+    "name": "PM Employment Generation Programme (PMEGP)",
+    "category": "Employment",
+    "icon": "🏭",
+    "description": "Credit-linked subsidy for setting up new micro-enterprises in non-farm sector.",
+    "benefit": "15-35% subsidy on project cost up to Rs 25 lakh (manufacturing) / Rs 10 lakh (service)",
+    "applyLink": "https://www.kviconline.gov.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 99, "maxIncome": 999999,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["unemployed","self employed"],
+      "conditions": ["Minimum 8th pass for projects above Rs 10 lakh", "New enterprise only"]
+    }
+  },
+  {
+    "id": "pmmy-shishu",
+    "name": "PM Mudra Yojana – Shishu Loan",
+    "category": "Employment",
+    "icon": "💼",
+    "description": "Collateral-free loans up to Rs 50,000 for small business startups.",
+    "benefit": "Loan up to Rs 50,000 without any collateral at low interest",
+    "applyLink": "https://www.mudra.org.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 65, "maxIncome": 999999,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["self employed","unemployed","daily wage"],
+      "conditions": ["Non-farm income generating activities", "No default on previous loans"]
+    }
+  },
+  {
+    "id": "pmmy-kishor",
+    "name": "PM Mudra Yojana – Kishor Loan",
+    "category": "Employment",
+    "icon": "📈",
+    "description": "Collateral-free loans for growing micro and small businesses.",
+    "benefit": "Loan Rs 50,001 to Rs 5 lakh without collateral",
+    "applyLink": "https://www.mudra.org.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 65, "maxIncome": 999999,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["self employed"],
+      "conditions": ["Existing small business", "No default on previous loans"]
+    }
+  },
+  {
+    "id": "pmsvvanidhi",
+    "name": "PM SVANidhi – Street Vendor Loan",
+    "category": "Employment",
+    "icon": "🛒",
+    "description": "Collateral-free working capital loans for street vendors.",
+    "benefit": "Rs 10,000 initial loan, then Rs 20,000, then Rs 50,000 on timely repayment",
+    "applyLink": "https://pmsvanidhi.mohua.gov.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 65, "maxIncome": 300000,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["self employed"],
+      "conditions": ["Street vendor with vending certificate or letter of recommendation from ULB"]
+    }
+  },
+  {
+    "id": "nsp-sc",
+    "name": "Post Matric Scholarship – SC Students",
+    "category": "Education",
+    "icon": "🎓",
+    "description": "Financial assistance to SC students studying post-matriculation courses.",
+    "benefit": "Rs 1,200 to Rs 2,250/month maintenance + full tuition fee reimbursement",
+    "applyLink": "https://scholarships.gov.in",
+    "eligibility": {
+      "minAge": 15, "maxAge": 30, "maxIncome": 250000,
+      "gender": "any",
+      "castes": ["sc"],
+      "states": "all",
+      "occupations": ["student"],
+      "conditions": ["Studying in Class 11 or above", "Not availing any other scholarship"]
+    }
+  },
+  {
+    "id": "nsp-st",
+    "name": "Post Matric Scholarship – ST Students",
+    "category": "Education",
+    "icon": "🎓",
+    "description": "Financial assistance to ST students for post-matriculation studies.",
+    "benefit": "Rs 1,200 to Rs 2,250/month + tuition fees paid",
+    "applyLink": "https://scholarships.gov.in",
+    "eligibility": {
+      "minAge": 15, "maxAge": 30, "maxIncome": 250000,
+      "gender": "any",
+      "castes": ["st"],
+      "states": "all",
+      "occupations": ["student"],
+      "conditions": ["Studying in Class 11 or above"]
+    }
+  },
+  {
+    "id": "nsp-obc",
+    "name": "Post Matric Scholarship – OBC Students",
+    "category": "Education",
+    "icon": "🎓",
+    "description": "Scholarship for OBC students pursuing post-matric education.",
+    "benefit": "Rs 300 to Rs 1,000/month + fees",
+    "applyLink": "https://scholarships.gov.in",
+    "eligibility": {
+      "minAge": 15, "maxAge": 30, "maxIncome": 100000,
+      "gender": "any",
+      "castes": ["obc"],
+      "states": "all",
+      "occupations": ["student"],
+      "conditions": ["Studying in Class 11 or above"]
+    }
+  },
+  {
+    "id": "nsp-minority",
+    "name": "Post Matric Scholarship – Minority Students",
+    "category": "Education",
+    "icon": "🎓",
+    "description": "Scholarship for minority community students from Class 11 to PhD.",
+    "benefit": "Rs 3,000 to Rs 12,000/year + maintenance allowance",
+    "applyLink": "https://scholarships.gov.in",
+    "eligibility": {
+      "minAge": 15, "maxAge": 32, "maxIncome": 200000,
+      "gender": "any",
+      "castes": ["minority"],
+      "states": "all",
+      "occupations": ["student"],
+      "conditions": ["Muslim, Christian, Sikh, Buddhist, Jain, or Parsi community", "50%+ marks in previous exam"]
+    }
+  },
+  {
+    "id": "nsp-merit",
+    "name": "Central Sector Scholarship – Top Students",
+    "category": "Education",
+    "icon": "🏅",
+    "description": "Merit-based scholarship for top 20 percentile students in Class 12 board exam.",
+    "benefit": "Rs 12,000/year (undergraduate) | Rs 20,000/year (postgraduate)",
+    "applyLink": "https://scholarships.gov.in",
+    "eligibility": {
+      "minAge": 17, "maxAge": 25, "maxIncome": 450000,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["student"],
+      "conditions": ["Top 20 percentile in Class 12 boards", "Regular college student not distance learning"]
+    }
+  },
+  {
+    "id": "sc-prematric",
+    "name": "Pre Matric Scholarship – SC Students",
+    "category": "Education",
+    "icon": "📚",
+    "description": "Scholarship for SC students studying in Class 9 and 10.",
+    "benefit": "Rs 150 to Rs 750/month + ad-hoc grant",
+    "applyLink": "https://scholarships.gov.in",
+    "eligibility": {
+      "minAge": 13, "maxAge": 18, "maxIncome": 250000,
+      "gender": "any",
+      "castes": ["sc"],
+      "states": "all",
+      "occupations": ["student"],
+      "conditions": ["Studying in Class 9 or 10 in a government or aided school"]
+    }
+  },
+  {
+    "id": "pmrf",
+    "name": "PM Research Fellowship (PMRF)",
+    "category": "Education",
+    "icon": "🔬",
+    "description": "Fellowship for research at IITs and IISc for bright students.",
+    "benefit": "Rs 70,000 to Rs 80,000/month fellowship for PhD",
+    "applyLink": "https://www.pmrf.in",
+    "eligibility": {
+      "minAge": 20, "maxAge": 30, "maxIncome": 999999,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["student"],
+      "conditions": ["B.Tech or M.Tech or MSc with 8.0+ CGPA", "Pursuing PhD at IIT/IISc/NIT/IISER"]
+    }
+  },
+  {
+    "id": "nsap-ignoaps",
+    "name": "Indira Gandhi National Old Age Pension (IGNOAPS)",
+    "category": "Senior Citizens",
+    "icon": "👴",
+    "description": "Monthly pension for BPL senior citizens aged 60 and above.",
+    "benefit": "Rs 200 to Rs 500/month pension (state may top up significantly)",
+    "applyLink": "https://nsap.nic.in",
+    "eligibility": {
+      "minAge": 60, "maxAge": 99, "maxIncome": 100000,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["retired","unemployed"],
+      "conditions": ["BPL household", "Age 60 and above"]
+    }
+  },
+  {
+    "id": "nsap-ignwps",
+    "name": "Indira Gandhi National Widow Pension (IGNWPS)",
+    "category": "Senior Citizens",
+    "icon": "🙏",
+    "description": "Monthly pension for widows from BPL households aged 40 to 79.",
+    "benefit": "Rs 300/month central contribution + state top-up",
+    "applyLink": "https://nsap.nic.in",
+    "eligibility": {
+      "minAge": 40, "maxAge": 79, "maxIncome": 100000,
+      "gender": "female",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all", "occupations": "all",
+      "conditions": ["Widow", "BPL household"]
+    }
+  },
+  {
+    "id": "nsap-igndps",
+    "name": "Indira Gandhi National Disability Pension (IGNDPS)",
+    "category": "Disability",
+    "icon": "♿",
+    "description": "Monthly pension for persons with severe or multiple disabilities from BPL households.",
+    "benefit": "Rs 300/month pension from central government + state top-up",
+    "applyLink": "https://nsap.nic.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 79, "maxIncome": 100000,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all", "occupations": "all",
+      "conditions": ["80%+ disability certified by government medical board", "BPL household"]
+    }
+  },
+  {
+    "id": "adip",
+    "name": "ADIP Scheme – Assistive Devices for Disabled",
+    "category": "Disability",
+    "icon": "🦽",
+    "description": "Free assistive devices like wheelchairs, hearing aids, Braille kits to persons with disabilities.",
+    "benefit": "Free assistive devices worth Rs 10,000 to Rs 20,000",
+    "applyLink": "https://alimco.in/adip-scheme",
+    "eligibility": {
+      "minAge": 0, "maxAge": 99, "maxIncome": 200000,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all", "occupations": "all",
+      "conditions": ["40%+ disability certified by govt medical board"]
+    }
+  },
+  {
+    "id": "startup-india",
+    "name": "Startup India Seed Fund Scheme",
+    "category": "Startup",
+    "icon": "🚀",
+    "description": "Financial assistance to early-stage startups for proof of concept and market entry.",
+    "benefit": "Up to Rs 20 lakh for PoC | Up to Rs 50 lakh for market entry",
+    "applyLink": "https://seedfund.startupindia.gov.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 45, "maxIncome": 999999,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["self employed","student"],
+      "conditions": ["DPIIT recognised startup", "Not more than 2 years old", "Not received more than Rs 10 lakh in other govt schemes"]
+    }
+  },
+  {
+    "id": "standup-india",
+    "name": "Stand-Up India – SC/ST Entrepreneurs",
+    "category": "Startup",
+    "icon": "💡",
+    "description": "Bank loans for SC/ST and women entrepreneurs to set up greenfield enterprises.",
+    "benefit": "Loan Rs 10 lakh to Rs 1 crore for greenfield enterprise",
+    "applyLink": "https://www.standupmitra.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 55, "maxIncome": 999999,
+      "gender": "any",
+      "castes": ["sc","st"],
+      "states": "all",
+      "occupations": ["self employed","unemployed"],
+      "conditions": ["Greenfield enterprise (first in manufacturing/service/trade)", "Not defaulter in any bank"]
+    }
+  },
+  {
+    "id": "standup-india-women",
+    "name": "Stand-Up India – Women Entrepreneurs",
+    "category": "Startup",
+    "icon": "👩‍💻",
+    "description": "Bank loans specifically for women to set up new greenfield businesses.",
+    "benefit": "Loan Rs 10 lakh to Rs 1 crore with repayment up to 7 years",
+    "applyLink": "https://www.standupmitra.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 55, "maxIncome": 999999,
+      "gender": "female",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["self employed","unemployed"],
+      "conditions": ["At least 51% stake in enterprise", "Greenfield enterprise only"]
+    }
+  },
+  {
+    "id": "pmkvy",
+    "name": "PM Kaushal Vikas Yojana (PMKVY)",
+    "category": "Skill Development",
+    "icon": "🛠️",
+    "description": "Free skill training and certification for youth to improve employment prospects.",
+    "benefit": "Free skill training + Rs 8,000 reward on certification + placement support",
+    "applyLink": "https://www.pmkvyofficial.org",
+    "eligibility": {
+      "minAge": 15, "maxAge": 45, "maxIncome": 999999,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["unemployed","student","daily wage"],
+      "conditions": ["School or college dropout OR looking to acquire additional skill", "Indian national"]
+    }
+  },
+  {
+    "id": "ddu-gky",
+    "name": "DDU Grameen Kaushalya Yojana (DDU-GKY)",
+    "category": "Skill Development",
+    "icon": "🏗️",
+    "description": "Placement-linked skill training for rural poor youth with guaranteed job placement.",
+    "benefit": "Free residential training + guaranteed job with min Rs 6,000/month salary",
+    "applyLink": "https://ddugky.gov.in",
+    "eligibility": {
+      "minAge": 15, "maxAge": 35, "maxIncome": 200000,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["unemployed"],
+      "conditions": ["Rural household", "Class 5 pass minimum"]
+    }
+  },
+  {
+    "id": "rbsk",
+    "name": "Rashtriya Bal Swasthya Karyakram (RBSK)",
+    "category": "Health",
+    "icon": "👨‍⚕️",
+    "description": "Free health screening and early intervention for children 0 to 18 years.",
+    "benefit": "Free diagnosis and treatment for 30+ diseases including heart defects and disabilities",
+    "applyLink": "https://rbsk.gov.in",
+    "eligibility": {
+      "minAge": 0, "maxAge": 18, "maxIncome": 999999,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["student"],
+      "conditions": ["Child aged 0-18 years", "Enrolled in government school or Anganwadi"]
+    }
+  },
+  {
+    "id": "pmbjp",
+    "name": "PM Bhartiya Janaushadhi Pariyojana",
+    "category": "Health",
+    "icon": "💊",
+    "description": "Quality generic medicines at 50-90% cheaper than market price at Jan Aushadhi stores.",
+    "benefit": "Medicines at 50-90% cheaper price at 9,000+ outlets nationwide — no registration needed",
+    "applyLink": "https://janaushadhi.gov.in",
+    "eligibility": {
+      "minAge": 0, "maxAge": 99, "maxIncome": 999999,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all", "occupations": "all",
+      "conditions": ["Any citizen can buy — no registration needed", "Just visit nearest Jan Aushadhi store"]
+    }
+  },
+  {
+    "id": "wse-msme",
+    "name": "Mahila Shakti Entrepreneurship (MSE)",
+    "category": "Women",
+    "icon": "💪",
+    "description": "Supports women entrepreneurs with training, credit, and market linkage.",
+    "benefit": "Subsidised loans, free skill training, market access support",
+    "applyLink": "https://msme.gov.in",
+    "eligibility": {
+      "minAge": 18, "maxAge": 55, "maxIncome": 500000,
+      "gender": "female",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["self employed","unemployed"],
+      "conditions": ["Woman starting or running a small business"]
+    }
+  },
+  {
+    "id": "atal-atl",
+    "name": "Atal Tinkering Labs (ATL) – Students",
+    "category": "Startup",
+    "icon": "🔭",
+    "description": "Innovation labs in schools to foster creativity and problem-solving in students.",
+    "benefit": "Access to Rs 20 lakh worth of equipment — 3D printers, robotics, electronics",
+    "applyLink": "https://aim.gov.in/atl.php",
+    "eligibility": {
+      "minAge": 10, "maxAge": 18, "maxIncome": 999999,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all",
+      "occupations": ["student"],
+      "conditions": ["School student Class 6 to 12", "School must have applied for ATL"]
+    }
+  },
+  {
+    "id": "nhm-free-drugs",
+    "name": "NHM Free Drugs and Diagnostics Service",
+    "category": "Health",
+    "icon": "🏨",
+    "description": "Free essential medicines and diagnostic tests at all public health facilities.",
+    "benefit": "Free medicines + free lab tests at all government hospitals",
+    "applyLink": "https://nhm.gov.in",
+    "eligibility": {
+      "minAge": 0, "maxAge": 99, "maxIncome": 500000,
+      "gender": "any",
+      "castes": ["general","obc","sc","st","ews","minority"],
+      "states": "all", "occupations": "all",
+      "conditions": ["Patient at any government health facility"]
+    }
+  }
+]
