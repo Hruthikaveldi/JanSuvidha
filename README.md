@@ -1,6 +1,9 @@
 # 🇮🇳 JanSuvidha — Citizen Scheme Eligibility Portal
 
-> A Dockerized Full-Stack Civic Tech Application for Government Scheme Eligibility Detection
+> A Full-Stack Civic Tech Application for Government Scheme Eligibility Detection
+
+
+---
 
 ## 📌 About
 
@@ -16,14 +19,12 @@ Over **800+ central government schemes** exist in India — but **80% of citizen
 
 ```
 JanSuvidha/
-├── docker-compose.yml          ← Runs all 3 services together
 ├── backend/
 │   ├── server.js               ← Express API + Eligibility Engine
 │   ├── schemes.json            ← 44 government schemes database
 │   ├── seed.js                 ← Seeds MongoDB with schemes
 │   ├── package.json
-│   ├── .env                    ← Environment variables
-│   └── Dockerfile              ← Backend container
+│   └── .env                    ← Environment variables
 └── frontend/
     ├── src/
     │   ├── pages/
@@ -42,30 +43,12 @@ JanSuvidha/
     │   └── App.css             ← Global styles
     ├── public/
     │   └── index.html
-    ├── package.json
-    └── Dockerfile              ← Frontend container
+    └── package.json
 ```
 
 ---
 
 ## 🌐 Running the App
-
-### Option A — With Docker (Recommended — DevOps way 🐳)
-
-Make sure Docker Desktop is running, then:
-
-```bash
-docker-compose up --build
-```
-
-This single command starts **all 3 services**:
-- ✅ MongoDB on port 27017
-- ✅ Backend API on port 5000
-- ✅ Frontend on port 3000
-
-Open **http://localhost:3000** — done!
-
-### Option B — Without Docker (Manual)
 
 **Terminal 1 — Backend:**
 ```bash
@@ -123,28 +106,7 @@ Open **http://localhost:3000**
 | Backend | Node.js, Express.js |
 | Database | MongoDB, Mongoose |
 | Auth | JWT (JSON Web Tokens), bcryptjs |
-| DevOps | Docker, Docker Compose |
 | Styling | Custom CSS (India-themed — Saffron + Green) |
-
----
-
-## 🐳 Docker Architecture
-
-```
-┌─────────────────────────────────────────┐
-│           docker-compose.yml            │
-│                                         │
-│  ┌──────────┐  ┌──────────┐  ┌───────┐ │
-│  │ Frontend │  │ Backend  │  │ Mongo │ │
-│  │  :3000   │→ │  :5000   │→ │ :27017│ │
-│  │  React   │  │ Node.js  │  │  DB   │ │
-│  └──────────┘  └──────────┘  └───────┘ │
-│                                         │
-│         jansuvidha-net (bridge)         │
-└─────────────────────────────────────────┘
-```
-
-All 3 containers communicate over a shared Docker bridge network (`jansuvidha-net`).
 
 ---
 
@@ -157,7 +119,6 @@ All 3 containers communicate over a shared Docker bridge network (`jansuvidha-ne
 - 🔐 **Secure Auth** — JWT-based login/register with bcrypt password hashing
 - 📱 **Mobile Responsive** — Works on phones with hamburger sidebar
 - 🇮🇳 **India-themed UI** — Saffron and green color palette
-- 🐳 **Fully Dockerized** — One command to run everything
 
 ---
 
@@ -167,7 +128,6 @@ All 3 containers communicate over a shared Docker bridge network (`jansuvidha-ne
 - [ ] Multilingual support (Telugu, Hindi, Tamil)
 - [ ] PDF report download of eligible schemes
 - [ ] Email notifications for new schemes
-- [ ] GitHub Actions CI/CD pipeline
 - [ ] Deploy to cloud (AWS/Railway)
 
 ---
@@ -183,6 +143,5 @@ Department of Computer Science
 SR University
 
 ---
-
 
 *JanSuvidha — Because every citizen deserves to know what they're entitled to.* 🇮🇳
